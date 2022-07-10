@@ -1,0 +1,14 @@
+name: AntiPvP
+main: sleepv\antipvp\Main
+version: 1.0.0
+api: [4.0.0]
+
+commands:
+  antipvp:
+    default: op
+    description: "AntiPvP Command"
+
+permissions:
+  use.antipvp.command:
+    default: op
+    description: "AntiPvP Permission"
